@@ -47,5 +47,4 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luc
 #增加了可以强制锁定暗色模式的功能，如果需要，请登录ssh 输入：touch /etc/dark 即可开启，关闭请输入：rm -rf /etc/dark，关闭后颜色模式为跟随系统
 git clone -b master https://github.com/firkerword/OpenClash.git package/OpenClash
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
