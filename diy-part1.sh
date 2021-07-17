@@ -34,8 +34,8 @@ svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-plus pa
 
 
 
-git clone https://github.com/jerrykuku/node-request.git package/node-request  #京东签到依赖
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
+#git clone https://github.com/jerrykuku/node-request.git package/node-request  #京东签到依赖
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
 
 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon  #argon-主题
