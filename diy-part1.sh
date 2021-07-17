@@ -15,6 +15,8 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
+sed -i '$a src-get helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge  #主题-edge-动态登陆界面
@@ -24,12 +26,12 @@ git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverc
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns  #smartdns DNS加速
 
 #passwall出国软件
-svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/brook package/brook
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/chinadns-ng package/chinadns-ng
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/tcping package/tcping
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-go package/trojan-go
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-plus package/trojan-plus
+svn co https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall 
+svn co https://github.com/xiaorouji/openwrt-passwall package/brook
+svn co https://github.com/xiaorouji/openwrt-passwall package/chinadns-ng
+svn co https://github.com/xiaorouji/openwrt-passwall package/tcping
+svn co https://github.com/xiaorouji/openwrt-passwall package/trojan-go
+svn co https://github.com/xiaorouji/openwrt-passwall package/trojan-plus
 
 
 
